@@ -1,31 +1,103 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Luz Naciente | Catálogo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luz Naciente | Jabones y Velas Artesanales</title>
     <style>
-        body { font-family: Arial, sans-serif; background: #f7f2ef; text-align: center; }
-        h1 { color: #7a4b2b; }
-        .producto { display: inline-block; margin: 15px; width: 250px; }
-        .producto img { width: 100%; border-radius: 8px; }
-        .logo { max-height: 100px; margin: 20px auto; }
+        body { font-family: Georgia, serif; background-color: #f8f5f0; margin: 0; color: #333; }
+        header { background-color: #dfcbb5; padding: 20px; text-align: center; }
+        header img { max-height: 100px; }
+        nav { background-color: #c2a17b; padding: 10px; text-align: center; }
+        nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+        section { padding: 20px; max-width: 900px; margin: auto; }
+        footer { background-color: #dfcbb5; text-align: center; padding: 10px; margin-top: 30px; }
+        .gallery img { width: 200px; margin: 10px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.3); cursor: pointer; }
+        .cta-button { background-color: #8b5e3c; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 20px; }
+        h2 { border-bottom: 2px solid #c2a17b; padding-bottom: 5px; }
     </style>
 </head>
 <body>
-    <img class="logo" src="LOGOTIPO.jpg" alt="Logo Luz Naciente">
-    <h1>Catálogo de Productos</h1>
 
-    <div class="producto"><img src="Brisa de Mar grande 400gr $250 y $350 kit (200gr y 400gr).jpeg"><p>Brisa de Mar $250 / $350 Kit</p></div>
-    <div class="producto"><img src="Coco $150 200gr.jpeg"><p>Coco 200gr - $150</p></div>
-    <div class="producto"><img src="Jazmín$150 200gr.jpeg"><p>Jazmín 200gr - $150</p></div>
-    <div class="producto"><img src="Lavanda-Jazmín $250 grande 400gr.jpeg"><p>Lavanda-Jazmín 400gr - $250</p></div>
-    <div class="producto"><img src="Magia otoñal $250 grande 400gr.jpeg"><p>Magia otoñal 400gr - $250</p></div>
-    <div class="producto"><img src="Matcha $250 kit 2 chicas 200 gr.jpeg"><p>Matcha Kit 2 chicas - $250</p></div>
-    <div class="producto"><img src="Miel-Lavanda $250 grande 400gr.jpeg"><p>Miel-Lavanda 400gr - $250</p></div>
-    <div class="producto"><img src="Paquete 2 jabones $125 de carbón activado con aloe vera y coco chanel con leche de cabra.jpeg"><p>Paquete 2 Jabones - $125</p></div>
-    <div class="producto"><img src="Jabón Carbón Activado - Limpieza profunda y natural. $80 MXN.jpg"><p>Jabón Carbón Activado - $80</p></div>
-    <div class="producto"><img src="Set de 3 Jabones Variados - Regalo perfecto. $200 MXN.jpg"><p>Set de 3 Jabones Variados - $200</p></div>
+<header>
+    <img src="LOGOTIPO.jpg" alt="Luz Naciente">
+    <h1>Luz Naciente</h1>
+    <p>Velas y Jabones Artesanales | Bienestar Natural</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#recetas">Recetario</a>
+    <a href="#blog">Blog</a>
+    <a href="#proveedores">Proveedores</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio">
+    <h2>Bienvenidos</h2>
+    <p>Descubre la esencia artesanal de Luz Naciente. Jabones, velas y aromas que transforman tu bienestar. 🌿✨</p>
+    <a class="cta-button" href="#catalogo">Ver Catálogo</a>
+</section>
+
+<section id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos Luz Naciente, un emprendimiento familiar dedicado a productos naturales que despiertan los sentidos y sanan el alma. Nuestro compromiso: ingredientes puros, procesos artesanales y bienestar auténtico. 💚</p>
+</section>
+
+<section id="catalogo">
+    <h2>Catálogo de Productos</h2>
+    <h3>Jabones Artesanales</h3>
+    <div class="gallery">
+        <img src="Jabón Carbón Activado - Limpieza profunda y natural. $80 MXN.jpg" alt="Jabón Carbón Activado" onclick="window.location='https://wa.me/528124382947'">
+        <img src="Set de 3 Jabones Variados - Regalo perfecto. $200 MXN.jpg" alt="Set de Jabones" onclick="window.location='https://wa.me/528124382947'">
+        <img src="Paquete 2 jabones $125 de carbón activado con aloe vera y coco chanel con leche de cabra.jpeg" alt="Paquete 2 Jabones" onclick="window.location='https://wa.me/528124382947'">
+    </div>
+    <h3>Velas Aromáticas</h3>
+    <div class="gallery">
+        <img src="Coco $150 200gr.jpeg" alt="Vela Coco" onclick="window.location='https://wa.me/528124382947'">
+        <img src="Jazmín$150 200gr.jpeg" alt="Vela Jazmín" onclick="window.location='https://wa.me/528124382947'">
+        <img src="Lavanda-Jazmín $250 grande 400gr.jpeg" alt="Vela Lavanda Jazmín" onclick="window.location='https://wa.me/528124382947'">
+        <img src="Miel-Lavanda $250 grande 400gr.jpeg" alt="Vela Miel Lavanda" onclick="window.location='https://wa.me/528124382947'">
+        <img src="Magia otoñal $250 grande 400gr.jpeg" alt="Vela Magia Otoñal" onclick="window.location='https://wa.me/528124382947'">
+        <img src="Matcha $250 kit 2 chicas 200 gr.jpeg" alt="Vela Matcha" onclick="window.location='https://wa.me/528124382947'">
+        <img src="Brisa de Mar grande 400gr $250 y $350 kit (200gr y 400gr).jpeg" alt="Vela Brisa de Mar" onclick="window.location='https://wa.me/528124382947'">
+    </div>
+</section>
+
+<section id="recetas">
+    <h2>Recetario Artesanal</h2>
+    <p>Aprende a elaborar jabones y velas naturales en casa con nuestras recetas exclusivas. Ideal para iniciar en el mundo artesanal o para disfrutar en familia. 🕯️🌿</p>
+</section>
+
+<section id="blog">
+    <h2>Blog de Bienestar y Consejos</h2>
+    <ul>
+        <li><strong>Los beneficios de la miel en tu piel</strong></li>
+        <li><strong>Aromaterapia: cómo las velas transforman tu ambiente</strong></li>
+        <li><strong>Cuidados naturales para la piel</strong></li>
+    </ul>
+</section>
+
+<section id="proveedores">
+    <h2>Proveedores y Alianzas</h2>
+    <p>¿Quieres colaborar con Luz Naciente? Buscamos distribuidores, proveedores de insumos naturales y aliados apasionados por el bienestar artesanal. 🤝</p>
+    <a class="cta-button" href="https://wa.me/528124382947">Contactar vía WhatsApp</a>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p><strong>Teléfono:</strong> +52 812-438-2947</p>
+    <p><strong>Email:</strong> fajardosmithjacqueline@gmail.com</p>
+    <p><strong>Ubicación:</strong> Hacienda La Silla, Guadalupe, Nuevo León, México</p>
+    <a class="cta-button" href="https://wa.me/528124382947">Enviar WhatsApp</a>
+    <p><a href="https://www.facebook.com/profile.php?id=61559024451217" target="_blank">Visita nuestro Facebook</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Luz Naciente. Todos los derechos reservados.</p>
+</footer>
 
 </body>
 </html>
